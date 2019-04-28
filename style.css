@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    width: 80vw;
+    margin: auto;
+}
+
+.container h2{
+    margin: 1em;
+}
+
+#search-input{
+    margin-left: 3em;
+}
+
+.results{
+    display: flex;
+    flex-wrap:  wrap;
+}
+
+.pokemonSearchItem{
+    padding: 1em;
+    margin: 0.5em;
+    background: #eee;
+    flex-basis: 10em;
+}
