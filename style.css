@@ -28,4 +28,11 @@
     margin: 0.5em;
     background: #eee;
     flex-basis: 10em;
+    transition-duration: 0.5s;
+}
+
+.pokemonSearchItem:hover{
+    margin: 0.5em;
+    background: rgb(61, 61, 61);
+    flex-basis: 10em;
 }
